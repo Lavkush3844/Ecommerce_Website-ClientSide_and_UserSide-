@@ -1,0 +1,29 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--light);
+    transition: all 400ms ease;
+    z-index: 999;
+}
+
+
+/* sticky header */
+.fix-header {
+    background-color: var(--light);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.1);
+}
+header .head-btn{
+    color: #fff;
+    background: var(--blue);
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+header .head-btn:hover{
+    color: var(--blue);
+    background-color: transparent;
+    border: 1px solid var(--blue);
+}

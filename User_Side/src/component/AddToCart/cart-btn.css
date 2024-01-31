@@ -1,0 +1,30 @@
+.add-cart button i {
+    font-size: 18px;
+    margin-right: 5px;
+    color: var(--blue);
+}
+
+.add-cart button {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.add-cart button:hover ,.buy-products .card-footer button:hover {
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    background-color: transparent;
+}
+
+.add-cart button:hover i {
+    color: var(--orange);
+}
+
+
+.add-cart button span {
+    background-color: var(--blue);
+    /* color: var(--blue); */
+}
+
+.add-cart button:hover span{
+    background-color: var(--orange) !important;
+}

@@ -1,0 +1,33 @@
+.login{
+    background-image: url('../../assets/bg.png');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login h2{
+    color: #28a745;
+    letter-spacing: 1px;
+}
+.login form{
+    padding: 40px;
+    border: 2px solid green;
+    border-radius: 30px;
+}
+.login form input{
+    width: 300px;
+}
+.login .login-btn{
+    background-color: #28a745;
+    padding: 10px 25px;
+}
+.login .form-control:focus{
+    border-color: #28a745;
+    box-shadow: none;
+}
+.login .login-btn:hover{
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+}

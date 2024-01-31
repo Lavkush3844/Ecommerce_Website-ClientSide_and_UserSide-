@@ -1,0 +1,10 @@
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--blue);
+    z-index: 500;
+}
+
+header .logo:hover {
+    color: var(--orange);
+}

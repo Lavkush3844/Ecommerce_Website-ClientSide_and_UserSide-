@@ -1,0 +1,9 @@
+header .nav-menu a{ 
+    margin-right: 25px;
+    color: var(--blue);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+header .nav-menu a:hover{
+    color: var(--orange);
+}

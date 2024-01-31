@@ -1,0 +1,10 @@
+.shopping-cart {
+    margin-top: 100px;
+}
+.remvoe-btn{
+    border: none;
+    background-color: transparent;
+}
+.remvoe-btn svg{
+    font-size: 30px;
+}
